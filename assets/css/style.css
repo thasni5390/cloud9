@@ -449,3 +449,16 @@ h3.follow{color:#fff;margin:2em 0 0 0;border-top:1px solid #444;padding-top:1em;
 .specifications span{font-weight:bold !important;color:var(--main-bg-color) !important;}
 .contact-w3ls .para{font-size:1.2em;}
 .contact p a{display:inline-block !important;}
+
+
+.link--brochure {
+    position: relative;
+    bottom: 30px;
+    padding: 15px;
+    font-weight: bold;
+    color: var(--main-bg-color);
+}
+
+.para.para--contact__title {
+    margin-bottom: 1em;
+}
