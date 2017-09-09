@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^c9builders.com$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^c9builders.com$
+RewriteCond %{REQUEST_URI} !cloud9/
+RewriteRule (.*) /folder/$1 [L]
